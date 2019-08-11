@@ -1,0 +1,10 @@
+Observations about plot.png :-
+--------------------------------
+
+It is evident from the plot that total number of actions required to reach the goal state decreases with increase in probability. Increase in probability induces less randomisation in choosing the actions. Running with same probability shows different curves every time (mostly). This is also because of choosing random actions based on probability. Any action can be picked that have the same probability from any state.
+
+We can also see some fluctuations in the plot. This is because, it is possible that a wrong path get chosen with higher probability and a correct path get chosen with lower probability. These fluctuations vary also as we run the code different times.
+
+Observations about path.png :-
+--------------------------------
+Since probability is 0.2 for this path, the path.png shows that it is taking wrong paths also. But ultimately it reaches the goal state. Here if we increase the probability, it will start taking wrong paths less often.
